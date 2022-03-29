@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
+/* ordi */
+@media (min-width: 1024px) {
+  .background {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    background-image: url("./images/pexels-george-dolgikh-giftpunditscom-2072181.jpg");
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .waze {
+    position: absolute;
+    top: 40%;
+    right: 52%;
+    width: 20%;
+    transform: rotate(335deg);
+    text-decoration: none;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 768px) and (max-width: 1024px) {
+  .background {
+    background-position-y: 0px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-size: cover;
+    background-image: url("./images/pexels-george-dolgikh-giftpunditscom-2072181.jpg");
   }
-  to {
-    transform: rotate(360deg);
+
+  .waze {
+    position: absolute;
+    top: 30%;
+    right: 54%;
+    width: 17%;
+    transform: rotate(335deg);
+    text-decoration: none;
+  }
+
+  p {
+    font-size: smaller;
+  }
+
+  a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+}
+
+@media (max-width: 768px) {
+  .background {
+    background-position-y: 0px;
+    height: 100vh;
+    background-position-x: -400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/pexels-george-dolgikh-giftpunditscom-2072181.jpg");
+  }
+
+  .waze {
+    position: absolute;
+    top: 45%;
+    right: 45%;
+    width: 50%;
+    transform: rotate(335deg);
+    text-decoration: none;
+  }
+
+  a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
   }
 }
