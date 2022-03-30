@@ -1,78 +1,61 @@
 /* ordi */
-@media (min-width: 1024px) {
-  .background {
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -100px;
-    background-image: url("./images/pexels-george-dolgikh-giftpunditscom-2072181.jpg");
-  }
 
-  .waze {
-    position: absolute;
-    top: 40%;
-    right: 52%;
-    width: 20%;
-    transform: rotate(335deg);
-    text-decoration: none;
-  }
-
-  a {
-    color: inherit; /* blue colors for links too */
-    text-decoration: inherit; /* no underline */
-  }
+.background {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -100px;
+  background-image: url("./images/train.jpg");
+  display: flex;
+  align-items: center;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  .background {
-    background-position-y: 0px;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position-y: -100px;
-    background-size: cover;
-    background-image: url("./images/pexels-george-dolgikh-giftpunditscom-2072181.jpg");
-  }
+.background2 {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-image: url("./images/mouette.jpg");
+  display: flex;
+  align-items: center;
+}
 
-  .waze {
-    position: absolute;
-    top: 30%;
-    right: 54%;
-    width: 17%;
-    transform: rotate(335deg);
-    text-decoration: none;
-  }
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.63);
+  width: 40%;
+}
+.waze {
+  width: 50%;
+  padding-bottom: 20px;
+}
 
-  p {
-    font-size: smaller;
-  }
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
 
-  a {
-    color: inherit; /* blue colors for links too */
-    text-decoration: inherit; /* no underline */
-  }
+p {
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-weight: 500;
+  font-size: medium;
 }
 
 @media (max-width: 768px) {
   .background {
     background-position-y: 0px;
-    height: 100vh;
-    background-position-x: -400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("./images/pexels-george-dolgikh-giftpunditscom-2072181.jpg");
   }
 
-  .waze {
-    position: absolute;
-    top: 45%;
-    right: 45%;
-    width: 50%;
-    transform: rotate(335deg);
-    text-decoration: none;
-  }
-
-  a {
-    color: inherit; /* blue colors for links too */
-    text-decoration: inherit; /* no underline */
+  .box {
+    width: 70%;
   }
 }
