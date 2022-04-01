@@ -17,6 +17,12 @@ const First = () => {
             <br />
             <br />
             Rendez-vous le 2 Avril à 10h30... SUR PLACE !
+            <br />
+            <br />
+            Un peu d'aide pour ta valise : <br />
+            <br />
+            il y fait froid, mais soleil, peut-être du vent et surtout, prends
+            ta jolie tenue prévue pour samedi soir !
           </p>
         </a>
       </div>
